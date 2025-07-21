@@ -1,0 +1,9 @@
+.chat-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+.chat-title {
+  text-align: center;
+}
