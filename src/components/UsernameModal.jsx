@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/UsernameModal.css";
 
 const UsernameModal = ({ onSubmit }) => {
   const [name, setName] = useState("");
