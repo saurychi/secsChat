@@ -10,7 +10,6 @@ const io = new Server(server, {
 
 io.on('connection', (socket) => {
   console.log(`Client connected: ${socket.id}`);
-
 socket.on("message", (msg) => {
     io.emit("message", msg);
   });
